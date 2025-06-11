@@ -1,0 +1,50 @@
+.FAQ-container{
+    max-width: 700px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 30px 20px;    
+    background:rgba(232, 146, 120, 0.758);      
+    border-radius: 12px;  
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.header-text{
+    text-align: center;
+}
+p.sub-header-text{
+    margin: 20px;
+    font-size: small;
+    text-align: center;
+}
+
+button.accordion-button {
+    background-color: #7b1414 !important;
+    color: #ffe7e7 !important;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 0;
+}
+
+.accordion-body{
+ background-color:  #fff4f4 ;
+}
+.accordion-button:hover {
+    background-color: #ae2929  !important;
+    color: #ffe7e7 !important;
+}
+/* Remove default focus of bootstrap and hover styles */ 
+button.accordion-button:focus,
+button.accordion-button:active,
+button.accordion-button:hover {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+
+a.contact-link{
+    text-decoration: none;
+    color: rgb(186, 8, 38);
+}
+.contact-link:hover{
+ color: rgb(238, 42, 75);
+}
